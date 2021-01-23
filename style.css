@@ -48,7 +48,7 @@ h2{
 
  
   .scoreBtn {
-	background-color:#4CAF50;
+	background-color:#333;
 	border:3px solid #18ab29;
 	display:inline-block;
 	cursor:pointer;
@@ -63,11 +63,10 @@ h2{
     width: 200px;  
 }
 .scoreBtn:hover {
-	background-color:#ddd;
+	background-color:#4CAF50;
 }
 .scoreBtn:active {
 	position:relative;
 	top:1px;
 }
 
-        
