@@ -1,11 +1,18 @@
 body {
     margin: 0;
     font-family: monospace;
+    background-color: #e8ddb5;
+    background-image: url("../Pixel-Cities/resources/pixil-skyline.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size:100% 50%;
   }
+
   
   .nav {
     overflow: hidden;
-    background-color:#333;
+    background-color:#666a86;
   }
 
 h2{
@@ -27,13 +34,14 @@ h2{
   }
   
   .nav a.active {
-    background-color: #4CAF50;
+    background-color: #b2c9ab;
     color: white;
   }
 
   table, tr {
-    border: 2px solid black;
+    border: 2px solid #666a86;
     border-collapse: collapse;
+    background-color: #ffffff;
   }
   
   table.leaderboard {
@@ -43,13 +51,13 @@ h2{
   }
 
   .leaderboard tr:hover{
-    background-color: #4CAF50;
+    background-color: #b2c9ab;
   }
 
  
   .scoreBtn {
 	background-color:#333;
-	border:3px solid #18ab29;
+	border:3px solid #92b6b1;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -63,7 +71,7 @@ h2{
     width: 200px;  
 }
 .scoreBtn:hover {
-	background-color:#4CAF50;
+	background-color:#b2c9ab;
 }
 .scoreBtn:active {
 	position:relative;
