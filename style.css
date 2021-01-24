@@ -14,7 +14,11 @@ body {
     overflow: hidden;
     background-color:#666a86;
   }
-
+#home{
+    content: url(../Pixel-Cities/resources/pixil-earth.png);
+    width: 18px;
+    height: 18px;
+}
 h2{
     text-align: center;
   }
@@ -71,7 +75,7 @@ h2{
     width: 200px;  
 }
 .scoreBtn:hover {
-	background-color:#b2c9ab;
+    background-color:#b2c9ab;
 }
 .scoreBtn:active {
 	position:relative;
