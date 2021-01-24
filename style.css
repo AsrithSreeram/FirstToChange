@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: monospace;
-    background-color: #e8ddb5;
-    background-image: url("../Pixel-Cities/resources/pixil-skyline.png");
+    background-color: #ffffff;
+    background-image: url("../Pixel-Cities/resources/skyline-white.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
