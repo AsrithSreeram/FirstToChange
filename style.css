@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: monospace;
     background-color: #ffffff;
-    background-image: url("/resources/skyline-white.png");
+    background-image: url("resources/skyline-white.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
@@ -15,7 +15,7 @@ body {
     background-color:#666a86;
   }
 #home{
-    content: url('/resources/pixil-earth.png');
+    content: url('resources/pixil-earth.png');
     width: 1.2em;
     height: 1.2em;
 }
