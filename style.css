@@ -49,8 +49,10 @@ h1{
   }
 
   td, th{
-    width: 33%; 
+    width: 10em; 
+  text-align: right;
   }
+
   
   table.leaderboard {
     margin-left: auto; 
