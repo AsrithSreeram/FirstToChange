@@ -46,12 +46,13 @@ h1{
     border: 2px solid #666a86;
     border-collapse: collapse;
     background-color: #ffffff;
+    
   }
   
   table.leaderboard {
     margin-left: auto; 
     margin-right: auto;
-    width: 500px;
+    width: 600px;
   }
 
   .leaderboard tr:hover{
@@ -154,4 +155,18 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+ 
+  .leaderboard tbody {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 200px;
+  }
+  .leaderboard thead tr {
+    display: block;
+    background-color:  #666a86;
+    color: #fff;
+
   }
