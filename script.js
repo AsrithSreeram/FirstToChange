@@ -22,9 +22,12 @@ const tabulate = function (data,columns) {
 	      })
       })
       .enter()
-    .append('td')
-      .text(function (d) { return d.value })
-
+		.append('td')
+			.style("font-weight", function(d) { 
+				return d.column === 'City' || d.column === 'Overall' ? "bold" : ""; 
+			})
+			.text(function (d) { return d.value })
+			
   return table;
 }
 
