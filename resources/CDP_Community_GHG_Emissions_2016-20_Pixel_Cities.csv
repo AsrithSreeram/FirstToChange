@@ -1,4 +1,4 @@
-﻿City,Country,CDP Region,Number of Reports Made,Reports Score,Most Recent Year Reported,Most Recent Reporting Score,Uses GCP/ICLEI protocol Score,Number of GHG reported,GHG Score,Transparancy Score,Total Emissions,Total Emission Score,Per Capita Emissions,Per Capita Emissions Score,Population,Trajectory,Emissions Impact Score,Overal Score
+﻿City,Country,CDP Region,NumberOfReportsMade,ReportsScore,MostRecentYearReported,MostRecentReportingScore,UsesGCPorICLEIProtocolScore,NumberOfGHGReported,GHGScore,TransparancyScore,TotalEmissions,TotalEmissionScore,PerCapitaEmissions,PerCapitaEmissionsScore,Population,Trajectory,EmissionsImpactScore,OverallScore
 Pasto,Colombia,Latin America,1,0,2018,1,2,7,2,2.5,69600,2,0.152739434,2,455678,Stayed the same,2,2.25
 Park City,United States of America,North America,1,0,2016,1,2,7,2,2.5,15555.04706,2,1.857097309,2,8376,Decreased,2,2.25
 Valdivia,Chile,Latin America,1,0,2013,1,2,7,2,2.5,419319,2,2.524801301,2,166080,This is our first year of calculation,2,2.25
