@@ -7,7 +7,8 @@ const tabulate = function (data,columns) {
 	  .selectAll('th')
 	    .data(columns)
 	    .enter()
-	  .append('th')
+		.append('th')
+			.attr('id', function(d) { return d; })
 	    .text(function (d) { return d })
 
 	const rows = tbody.selectAll('tr')
@@ -24,7 +25,7 @@ const tabulate = function (data,columns) {
       .enter()
 		.append('td')
 			.style("font-weight", function(d) { 
-				return d.column === 'City' || d.column === 'Overall' ? "bold" : ""; 
+				return d.column === 'City' || d.column === 'Overall' || d.column === 'Ranking' ? "bold" : ""; 
 			})
 			.text(function (d) { return d.value })
 			
@@ -32,6 +33,6 @@ const tabulate = function (data,columns) {
 }
 
 d3.csv('resources/CDP_Community_GHG_Emissions_2016-20_Pixel_Cities.csv',function (data) {
-	var columns = ['City','Country','Transparency','Emissions','Overall']
+	var columns = ['City','Country','Transparency','Emissions','Overall', 'Ranking']
   tabulate(data,columns)
 })
