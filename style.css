@@ -16,8 +16,8 @@ body {
   }
 #home{
     content: url(../Pixel-Cities/resources/pixil-earth.png);
-    width: 18px;
-    height: 18px;
+    width: 1.05em;
+    height: 1.05em;
 }
 h1{
     text-align: center;
