@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF=8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FMA Climate Change</title>
-    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="script.js"></script>
-    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css ">
+<head>
+  <meta charset="UTF=8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FMA Climate Change</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css ">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,8 +19,7 @@
 " crossorigin="anonymous "></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl
 " crossorigin="anonymous "></script>
-    
-  </head>
+</head>
 <body>
     <!-- Top Nav Bar Here-->
     <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-between align-middle ">
@@ -49,92 +46,64 @@
         <li class="nav-item mr-lg-2 ">
           <a class="nav-link " href="/aboutUs.html"><p class="lead ">About Us</p></a>
         </li>
+        <li class="nav-item mr-lg-2 ">
+          <a class="nav-link " href="/contactUs.html"><p class="lead ">Contact Us</p></a>
+        </li>
   
     </form>  
     </nav>
 <!-- Title/header -->
-
-<style>
-  * {
-    box-sizing: border-box;
-  }
-  
-  
-  /* Float four columns side by side */
-  .column {
-    float: left;
-    width: 30%;
-    padding: 0 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .card:hover{
-    cursor: pointer;
-    transform: scale(1.08);
-
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 45px;
-    text-align: center;
-    background-color: #f1f1f1;
-    height: 100%;
-    transition: transform 450ms;
-
-  }
-
-  .card a {
-  font-size: 24px;
-
-  }
-  </style>
-
-<div class="jumbotron " style=" margin-bottom: 0px; padding-bottom: 30px;" >
-  <center> <h1 class="display-4 ">First To Change</h1></center>
-  <p class="lead ">Through creating this website, we aim to provide a one-stop-shop for Climate change information. We provide sentiment and social trends through data visualization, a gamified leaderboard of CO2 emissions to promote change, and a CO2 calculator to demonstrate your impact on Climate change.
-</p> 
-
-</div>
-
-<br>
-<br>
-
-    <div class="row">
-      <div class="column">
-        <div class="card"><a href = "action.html">Learn how to improve your city's score!</a></div>
+      <div style="padding-left:16px">
+        <h1>Learn the Stigma Surrounding Climate Change</h1>
       </div>
-      <div class="column">
-        <div class="card"><a href="leaderboard.html" >Check out the Climate Change Leaderboard!</a></div>
+      <!-- Images-->
+      <div class="container" style="padding-bottom: 30px">
+        <hr />
+        <div class="container">
+            <h3>Daily Average Sentiment of Tweets - Climate Change</h3>
+            <h5>-1 = Very Negative | 0 = Neutral | 1 = Positive</h5>
+            <hr />
+            <div style="text-align: center!important;">
+                <img style = "width: 80%; object-fit: contain; height: 50%;" src="resources/dailyaverageclimatechange.png" alt="Sentiment Of Tweets Image" />
+            </div>
+        </div>
+        <br>
+
+        <div class="container">
+            <h3>Sentiment of Tweets - Climate Change</h3>
+            <h5>-1 = Very Negative | 0 = Neutral | 1 = Positive</h5>
+            <hr />
+            <div style="text-align: center!important;">
+                <img src="resources/overallclimatechange.png" alt="Average Sentiment of Tweets Image" style="width: 50rem" />
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <h3>What's on people's minds? - Climate Change</h3>
+            <h5>This is a Word Cloud that scrapes the most-used words regarding Climate Change on Twitter.</h5>
+
+            <hr />
+            <div style="text-align: center!important;">
+                <img src="resources/climatechangewordcloud.png" alt="Wordcloud" style="width: 50rem" />
+            </div>
+        </div>
+        <br>
+        <div class="container">
+          <h3>Dynamic Sea Level/Carbon Dioxide Charts</h3>
+          <h5>These are interactive charts pulled from the NOAA that directly track Sea Level and Carbon Dioxide levels.</h5>
+          <hr />
+          <div style = "display: flex">
+          <iframe src="https://climate.nasa.gov/embed/126" width="50%" height="350" scrolling="no" frameborder="0"></iframe>
+          <iframe src="https://climate.nasa.gov/embed/128" width="50%" height="350" scrolling="no" frameborder="0"></iframe>
+        </div>
       </div>
-      <div class="column">
-        <div class="card"><a href="current.html">Learn the stigma around Climate Change!</a></div>
-      </div>
+
     </div>
 
-<br>
-<br>
+    <br>
+
+
+
     <footer class="page-footer font-small unique-color-light ">
       <div style="background-color: #D3D3D3; ">
         <div class="container ">
@@ -184,6 +153,10 @@
             <p>
               <a class="twhite text-muted " href="/aboutUs.html">About Us</a>
             </p>
+            <p>
+              <a class="twhite text-muted " href="/contactUs.html">Contact Us</a>
+            </p>
+          
           
           </div>
           <!-- Grid column -->

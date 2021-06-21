@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-size: 50% 50%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+#home {
+  content: url("resources/2782908.png");
+  width: 1.2em;
+  height: 1.2em;
+}
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.imagestyle {
+  object-fit: contain;
+  width: 800px;
+  height: 800px;
+}
+
+.scoreBtn {
+  background-color: whitesmoke;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+table,
+tr {
+  border: 2px solid #01007e;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th {
+  width: 10em;
+  /* text-align: right; */
+}
+
+#Ranking,
+#Transparency,
+#Emissions,
+#Overall {
+  text-align: right;
+  width: 8em;
+}
+
+td {
+  width: 10em;
+  text-align: right;
+}
+
+table.leaderboard {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.leaderboard tr:hover {
+  background-color: #f8bd0a;
+}
+
+.scoreBtn {
+  padding: 10px;
+  margin: 1em auto;
+  text-align: center;
+  display: block;
+  width: 200px;
+}
+.inputTable {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+
+.action_top {
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+#inputTable tr:nth-child(even) {
+  background-color: #c8c8c8;
+}
+
+#inputTable tr:hover {
+  background-color: #ddd;
+}
+
+.reset {
+  display: inline-block;
+  padding: 8px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.reset:hover {
+  background-color: #3e8e41;
+}
+
+.header {
+  font-size: 16px;
+}
+
+.reset:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.action_end {
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  width: 45%;
+}
+.scoreBtn:hover {
+  background-color: #f8bd0a;
+}
+.scoreBtn:active {
+  position: relative;
+  top: 1px;
+}
+
+.fixed-bg {
+  background-color: #01007e;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-size: 100% 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  background-color: #01007e;
+  color: white;
+  text-align: center;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 3rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.message {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  background: white;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid black;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
+}
+
+.btn:last-child {
+  margin: 0;
+}
+
+.btn:hover {
+  box-shadow: 0.4rem 0.4rem 0 black;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leaderboard tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 250px;
+}
+.leaderboard thead tr {
+  display: block;
+  background-color: #01007e;
+  color: #fff;
+}

@@ -33,6 +33,6 @@ const tabulate = function (data,columns) {
 }
 
 d3.csv('resources/CDP_Community_GHG_Emissions_2016-20_Pixel_Cities.csv',function (data) {
-	var columns = ['City','Country','Transparency','Emissions','Overall', 'Ranking']
+	var columns = ['City','Country','Emissions','Transparency','Overall', 'Ranking']
   tabulate(data,columns)
 })
